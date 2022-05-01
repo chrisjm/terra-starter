@@ -67,7 +67,7 @@ const Play = () => {
       ) : (
         <div className="game-container">
           <img
-            src={"beer-mug.png"}
+            src={"beer-mugs.png"}
             id="target"
             alt="Target"
             style={{ ...targetPosition }}
