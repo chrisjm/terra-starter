@@ -58,8 +58,8 @@ const Play = () => {
     <div className="score-board-container">
       <div className="play-container">
         <span>Score: {score}</span>
-        <span>Fight!</span>
-        <span>Time left: {time} s</span>
+        <span>Prost!</span>
+        <span>Time left: {time}s</span>
       </div>
 
       {loading ? (
@@ -73,7 +73,11 @@ const Play = () => {
             style={{ ...targetPosition }}
             onClick={handleClick}
           />
-          <img src="prost.png" id="marine-img" alt="Marine" />
+          <img
+            src="prost.png"
+            id="title-img"
+            alt="Beer mugs cheers with Prost!"
+          />
         </div>
       )}
     </div>

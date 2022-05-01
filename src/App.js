@@ -1,7 +1,7 @@
 import "./App.css";
 import { useWallet, WalletStatus } from "@terra-money/wallet-provider";
 import Menu from "./components/Menu";
-import WalletAddress from './components/WalletAddress';
+import WalletAddress from "./components/WalletAddress";
 
 function App() {
   const { status, connect, disconnect, availableConnectTypes } = useWallet();
@@ -40,17 +40,17 @@ function App() {
     <main className="App">
       <header>
         <div className="header-titles">
-          <h1>⚔ Goblin War ⚔</h1>
-          <p>Only you can save us from Goblin town</p>
+          <h1>🍻 Prost the Most 🍻</h1>
+          <p>Only you can prost the most and save humanity!</p>
         </div>
         <WalletAddress />
       </header>
 
-      {status === WalletStatus.WALLET_NOT_CONNECTED  && (
+      {status === WalletStatus.WALLET_NOT_CONNECTED && (
         <div>
           <img
-            src="https://media.giphy.com/media/B19AYwNXoXtcs/giphy.gif"
-            alt="Goblin gif"
+            src={"Django-Waltz.gif"}
+            alt="Waltz saying Prost from Django Unchained movie"
           />
         </div>
       )}

@@ -7,8 +7,8 @@ const Guide = () => {
       <header>
         <Link to="/" className="home-link">
           <div className="header-titles">
-            <h1>⚔ Goblin War ⚔️</h1>
-            <p>Only you can save us from Goblin town</p>
+            <h1>🍻 Prost the Most 🍻</h1>
+            <p>Only you can prost the most and save humanity!</p>
           </div>
         </Link>
         <WalletAddress />
@@ -19,7 +19,7 @@ const Guide = () => {
 
         <div>
           <span className="help">
-            Click as many goblins as you can within 15 seconds!
+            Click as many beer mugs as you can within 15 seconds!
           </span>
         </div>
       </div>
