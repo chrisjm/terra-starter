@@ -39,7 +39,7 @@ span {
 }
 
 .wallet-address {
-    color:white; 
+    color:white;
     font-size: 18px;
     font-weight: bold;
     position: absolute;
@@ -191,6 +191,7 @@ span {
 }
 
 #marine-img {
+    max-width: 300px;
     position: absolute;
     top: 80%;
     left: 50%;

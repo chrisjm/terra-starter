@@ -1,3 +1,24 @@
 {
-
+  "localterra": {
+    "counter": {
+      "codeId": "2",
+      "contractAddresses": {
+        "default": "terra10pyejy66429refv3g35g2t7am0was7ya7kz2a4"
+      }
+    },
+    "clicker": {
+      "codeId": "6",
+      "contractAddresses": {
+        "default": "terra19zpyd046u4swqpksr3n44cej4j8pg6ah2y6dcg"
+      }
+    }
+  },
+  "testnet": {
+    "clicker": {
+      "codeId": "68596",
+      "contractAddresses": {
+        "default": "terra1379sldh9umw9kn6p9l0sfy46as7heruz6mg2g4"
+      }
+    }
+  }
 }
