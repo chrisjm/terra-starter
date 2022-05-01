@@ -8,7 +8,6 @@ const Play = () => {
   const playTime = 15;
 
   const [time, setTime] = useState(playTime);
-  const [gameOver, setGameOver] = useState(false);
   const [targetPosition, setTargetPosition] = useState({
     top: "15%",
     left: "50%",
